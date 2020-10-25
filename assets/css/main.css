@@ -133,7 +133,7 @@ input, select, textarea {
 		margin: 0 0 2.25em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h4, h5, h6{
 		color: #777;
 		font-weight: 700;
 		line-height: 1em;
@@ -2650,6 +2650,21 @@ input, select, textarea {
 			opacity: 0.25;
 		}
 
+.custom-button {
+	border: none;
+	color: white;
+	padding: 10px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 4px
+}
+
+.custom-button-1 {background-color: #4CAF50;} /* Green */
+.custom-button-2 {background-color: #008CBA;} /* Blue */
 /* Features */
 
 	.features article {
